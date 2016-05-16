@@ -30,3 +30,10 @@ A: The diagrams really help understand the flow of the main line of commits,
   and show how the branches come off of those and feed into a log. They
   also do a great job explaining why you get the headless messages when you
   check out an old commit.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing
+  merges manually?
+
+A: Pros include the automatic handling of changes/adds/deletes that makes
+  sense in both branches. Cons include a little more work to find and resolve
+  conflicts that can't be handled automatically.
