@@ -9,3 +9,9 @@ Q: How is the staging area different from the working directory and
 A: Much like taking two steps to commit a change into an SQL database,
   the staging area pulls pieces together, then requires a commit to ensure
   you have a chance to validate your intended results before you commit them.
+
+Q: How can you use the staging area to make sure you have one
+  commit per logical change?
+
+A: You can diff your staged files against your last commmit to verify that you
+  have only made one logical change since the last commit.
