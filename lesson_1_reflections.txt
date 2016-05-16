@@ -1,0 +1,34 @@
+Q: How did viewing a diff between two versions of a file
+  help you see the bug that was introduced?
+
+A: It makes it very easy to see the changes that were made, and only
+  those changes, so that you can quickly tell which change caused the error.
+
+Q: How could having easy access to the entire history of a file make you
+  a more efficient programmer in the long term?
+
+A: It can help me learn from past mistakes that have caused errors, and also
+  help me see how I've improved my efficiency in operations over time.
+
+Q: Why do you think some version control systems, like Git, allow saving
+  multiple files in one commit, while others, like Google Docs,
+  treat each file separately?
+
+A: GDocs is built for individual files that rarely relate to/link to
+  one another in a meaningful way where simultaneous changelogs would be
+  helpful, whereas Git is built for code, where multiple files often need
+  to be changed at once to implement something new.
+
+Q: How can you use the commands git log and git diff to view the
+  history of files?
+
+A: git log shows a history of commits, from newest to oldest, with notes
+  from the committer on what was changed. You can then use git diff to
+  find the changes made between that commit and the previous one (the next
+  one down in the list)
+
+Q: Now that you have your workspace set up, what do you want
+  to try using Git for?
+
+A: I'd like to test it to track some tweaks I want to make on projects I
+  started in the Introduction to Coding Nanodegree.
