@@ -1,0 +1,11 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: It informs get that this directory (and subdirs) are a repo to watch,
+  and it adds the .git folder into the directory to prepare to track.
+
+Q: How is the staging area different from the working directory and
+  the repository? What value do you think it offers?
+
+A: Much like taking two steps to commit a change into an SQL database,
+  the staging area pulls pieces together, then requires a commit to ensure
+  you have a chance to validate your intended results before you commit them.
