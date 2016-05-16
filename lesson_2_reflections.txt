@@ -23,3 +23,10 @@ A: As mentioned in the video, adding a second language is a valid reason
   to branch, as also testing an experimental new feature, or attempting
   a total refactoring of the code to streamline it and make it
   faster/more efficient.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: The diagrams really help understand the flow of the main line of commits,
+  and show how the branches come off of those and feed into a log. They
+  also do a great job explaining why you get the headless messages when you
+  check out an old commit.
